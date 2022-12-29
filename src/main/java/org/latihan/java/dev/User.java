@@ -3,9 +3,9 @@ package org.latihan.java.dev;
 import java.util.Objects;
 
 public class User {
-    String name;
-    int age;
-    String address;
+    private String name;
+    private int age;
+    private String address;
 
     public User(String name, int age, String address) {
         this.name = name;
