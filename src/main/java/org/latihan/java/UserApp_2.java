@@ -28,8 +28,12 @@ public class UserApp_2 {
         }
 
         for (User user : semuaUser) {
-            System.out.println(user);
+            if (user.getHobbies().size() == 0) {
+                user.addHobi("Test");
+            }
         }
+
+        System.out.println(semuaUser.get(0).getHobbies());
 
     }
 }
