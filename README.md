@@ -67,7 +67,7 @@ CREATE TABLE mahasiswa (
 
 # e. Menambahkan kolom rata-rata, dan menambahkan nilai kolom rata-rata berdasarkan nilai tugas, UTS, dan UAS
 > ```sql
-> ALTER TABLE mahasiswa ADD Rata_Rata INTEGER;
+> ALTER TABLE mahasiswa ADD Rata_Rata FLOAT;
 > UPDATE mahasiswa SET Rata_Rata = (NilaiTugas + NilaiUTS + NilaiUAS) / 3;
 > ```
 

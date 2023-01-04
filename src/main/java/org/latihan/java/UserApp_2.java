@@ -26,14 +26,13 @@ public class UserApp_2 {
             System.out.println();
             semuaUser.add(temp);
         }
-
+        System.out.println("------------------------------------------");
+        System.out.printf("| %-20s| %-5s| %-20s|\n", "Nama", "Umur", "Alamat");
         for (User user : semuaUser) {
-            if (user.getHobbies().size() == 0) {
-                user.addHobi("Test");
-            }
+            System.out.printf("| %-20s| %-5s| %-20s|\n", user.getName(),
+                    user.getAge(), user.getAddress());
         }
-
-        System.out.println(semuaUser.get(0).getHobbies());
+        System.out.println("------------------------------------------");
 
     }
 }
