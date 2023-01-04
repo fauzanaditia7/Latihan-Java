@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca46004e-a1aa-4a00-a763-15c31a937175" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fauzan.db" beforeDir="false" afterPath="$PROJECT_DIR$/Fauzan.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/latihan/java/UserApp_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/latihan/java/UserApp_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +44,26 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/62851/Downloads/Fauzan/Latihan-BlueJ/sqlite-jdbc-3.40.0.0.jar&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SqliteTestApp">
-    <configuration name="SqliteApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.SqliteApp" />
+  <component name="RunManager" selected="Application._Q">
+    <configuration name="Nomor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.Nomor1" />
+      <module name="LatihanJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.latihan.java.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nomor3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.Nomor3" />
       <module name="LatihanJava" />
       <extension name="coverage">
         <pattern>
@@ -76,19 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.TestApp" />
-      <module name="LatihanJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.latihan.java.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserApp_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.latihan.java.UserApp_2" />
       <module name="LatihanJava" />
@@ -102,12 +101,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_Q" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application._Q" />
+      <module name="LatihanJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.latihan.java.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._Q" />
+        <item itemvalue="Application.Nomor3" />
+        <item itemvalue="Application.Nomor1" />
         <item itemvalue="Application.SqliteTestApp" />
         <item itemvalue="Application.UserApp_2" />
-        <item itemvalue="Application.SqliteApp" />
-        <item itemvalue="Application.TestApp" />
       </list>
     </recent_temporary>
   </component>
@@ -132,5 +145,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

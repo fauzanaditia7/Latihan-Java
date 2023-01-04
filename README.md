@@ -1,6 +1,6 @@
 ## Latihan Soal UAS
 
-# *2. a. Membuat tabel mahasiswa dengan kolom : NPM, Nama, Kelas, Nilai Tugas, UTS, UAS*
+### *2. a. Membuat tabel mahasiswa dengan kolom : NPM, Nama, Kelas, Nilai Tugas, UTS, UAS*
 ```sql
 CREATE TABLE mahasiswa (
     NPM INTEGER,
@@ -12,7 +12,9 @@ CREATE TABLE mahasiswa (
 );
 ```
 
-# b. Membuat 5 record
+
+
+### b. Membuat 5 record
 >
 > ```sql
 > INSERT INTO mahasiswa (NPM, Nama, Kelas, NilaiTugas, NilaiUTS, NilaiUAS) VALUES (
@@ -33,7 +35,7 @@ CREATE TABLE mahasiswa (
 >
 > ```
 
-# c. Menampilkan semua dari tabel mahasiswa
+### c. Menampilkan semua dari tabel mahasiswa
 > Query SQL :
 > ``` sql
 > SELECT * FROM mahasiswa;
@@ -50,7 +52,7 @@ CREATE TABLE mahasiswa (
 > 202143500455  Bunga Lestari            R3D    90          90        92
 > ```
 
-# d. Menampilkan (NPM, Nama, Kelas) yang namanya diawali dari "a" atau diakhiri "i"
+### d. Menampilkan (NPM, Nama, Kelas) yang namanya diawali dari "a" atau diakhiri "i"
 
 > ``` sql
 > SELECT NPM, Nama, Kelas FROM mahasiswa WHERE (Nama LIKE 'a%') OR (Nama LIKE '%i');
@@ -65,18 +67,31 @@ CREATE TABLE mahasiswa (
 > 202143500455  Bunga Lestari     R3D
 > ```
 
-# e. Menambahkan kolom rata-rata, dan menambahkan nilai kolom rata-rata berdasarkan nilai tugas, UTS, dan UAS
+### e. Menambahkan kolom rata-rata, dan menambahkan nilai kolom rata-rata berdasarkan nilai tugas, UTS, dan UAS
 > ```sql
 > ALTER TABLE mahasiswa ADD Rata_Rata FLOAT;
 > UPDATE mahasiswa SET Rata_Rata = (NilaiTugas + NilaiUTS + NilaiUAS) / 3;
 > ```
 
-# f. Merubah nilai tugas, UTS dan UAS masing masing bertambah 10, yang nilai rata-ratanya kurang dari 60
+### f. Merubah nilai tugas, UTS dan UAS masing masing bertambah 10, yang nilai rata-ratanya kurang dari 60
 > ```sql
 > UPDATE mahasiswa SET NilaiTugas = NilaiTugas + 10, NilaiUTS = NilaiUTS + 10, NilaiUAS = NilaiUAS + 10 WHERE Rata_Rata < 60;
 > ```
 
-# g. Menghapus dari tabel mahasiswa yang nilai rata-ratanya kurang dari 50
+### g. Menghapus dari tabel mahasiswa yang nilai rata-ratanya kurang dari 50
 > ```sql
 > DELETE FROM mahasiswa WHERE (Rata_Rata < 60);
 > ```
+
+### No.3 
+> Contoh Output 1
+> 
+> ![Contoh 1](sample%20output/3_1.png?raw=true)
+> 
+> Contoh Output 2
+> 
+> ![Contoh 1](sample%20output/3_2.png?raw=true)
+> 
+> Contoh Output 3
+> 
+> ![Contoh 1](sample%20output/3_3.png?raw=true)
