@@ -1,13 +1,11 @@
-package org.latihan.java.dev;
+package org.latihan.java.oop;
 
-import java.util.ArrayList;
 import java.util.Objects;
 
 public class User {
     private String name;
     private int age;
     private String address;
-    private ArrayList<String> hobbies;
 
     public User(String name, int age, String address) {
         this.name = name;
@@ -50,10 +48,6 @@ public class User {
         this.address = address;
     }
 
-    public ArrayList<String> getHobbies() {
-        return this.hobbies;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -74,9 +68,5 @@ public class User {
                 ", age=" + age +
                 ", address='" + address + '\'' +
                 '}';
-    }
-
-    public void addHobi(String hobby) {
-        this.hobbies.add(hobby);
     }
 }

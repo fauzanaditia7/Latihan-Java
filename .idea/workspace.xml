@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca46004e-a1aa-4a00-a763-15c31a937175" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="ca46004e-a1aa-4a00-a763-15c31a937175" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +47,7 @@
     "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.InputUserApp">
+  <component name="RunManager" selected="Application.UserApp">
     <configuration name="InputUserApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.InputUserApp" />
       <module name="LatihanJava" />
@@ -76,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nomor3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.uas.Nomor3" />
+    <configuration name="TipeData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.TipeData" />
       <module name="LatihanJava" />
       <extension name="coverage">
         <pattern>
@@ -89,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TipeData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.TipeData" />
+    <configuration name="UserApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.UserApp" />
       <module name="LatihanJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.latihan.java.application.uas.*" />
+          <option name="PATTERN" value="org.latihan.java.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserApp" />
         <item itemvalue="Application.InputUserApp" />
         <item itemvalue="Application.TipeData" />
         <item itemvalue="Application.LatihanNo1" />
         <item itemvalue="Application._Q" />
-        <item itemvalue="Application.Nomor3" />
       </list>
     </recent_temporary>
   </component>
