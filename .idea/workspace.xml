@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca46004e-a1aa-4a00-a763-15c31a937175" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +48,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application._Q">
-    <configuration name="Nomor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.Nomor1" />
+  <component name="RunManager" selected="Application.InputUserApp">
+    <configuration name="InputUserApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.InputUserApp" />
+      <module name="LatihanJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.latihan.java.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LatihanNo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.LatihanNo1" />
       <module name="LatihanJava" />
       <extension name="coverage">
         <pattern>
@@ -75,25 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SqliteTestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.SqliteTestApp" />
+    <configuration name="TipeData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.TipeData" />
       <module name="LatihanJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.latihan.java.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserApp_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.latihan.java.UserApp_2" />
-      <module name="LatihanJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.latihan.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InputUserApp" />
+        <item itemvalue="Application.TipeData" />
+        <item itemvalue="Application.LatihanNo1" />
         <item itemvalue="Application._Q" />
         <item itemvalue="Application.Nomor3" />
-        <item itemvalue="Application.Nomor1" />
-        <item itemvalue="Application.SqliteTestApp" />
-        <item itemvalue="Application.UserApp_2" />
       </list>
     </recent_temporary>
   </component>
