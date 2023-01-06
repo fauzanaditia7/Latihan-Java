@@ -13,6 +13,7 @@ public class UserApp {
 
         System.out.print("Masukkan jumlah user : ");
         int jumlahUser = Integer.parseInt(input.readLine());
+
         for (int i = 0; i < jumlahUser; i++) {
             System.out.printf("User ke - %s\n", i + 1);
             User user = new User();
