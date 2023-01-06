@@ -30,5 +30,6 @@ public class UserApp {
         for (User user : dataUser) {
             System.out.printf("%-28s %-8s %-20s\n", user.getName(), user.getAge(), user.getAddress());
         }
+
     }
 }
