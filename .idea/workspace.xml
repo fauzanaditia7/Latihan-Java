@@ -53,7 +53,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PrettyTableApp">
+  <component name="RunManager" selected="Application.Rekursi">
     <configuration name="InputUserApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.InputUserApp" />
       <module name="LatihanJava" />
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LatihanNo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.LatihanNo1" />
+    <configuration name="PrettyTableApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.PrettyTableApp" />
       <module name="LatihanJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.latihan.java.application.uas.*" />
+          <option name="PATTERN" value="org.latihan.java.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrettyTableApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.PrettyTableApp" />
+    <configuration name="Rekursi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.latihan.java.application.Rekursi" />
       <module name="LatihanJava" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrettyTableApp" />
+        <item itemvalue="Application.Rekursi" />
         <item itemvalue="Application.UserApp" />
+        <item itemvalue="Application.PrettyTableApp" />
         <item itemvalue="Application.InputUserApp" />
         <item itemvalue="Application.TipeData" />
-        <item itemvalue="Application.LatihanNo1" />
       </list>
     </recent_temporary>
   </component>

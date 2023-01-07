@@ -1,6 +1,7 @@
 package org.latihan.java.application;
 
 import org.latihan.java.oop.User;
+import org.latihan.java.utils.PrettyTable;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -26,10 +27,14 @@ public class UserApp {
             System.out.println();
             dataUser.add(user);
         }
-        System.out.printf("%-28s %-8s %-20s\n", "Nama", "Umur", "Alamat");
+        PrettyTable table = new PrettyTable("Nama", "Umur", "Alamat");
         for (User user : dataUser) {
-            System.out.printf("%-28s %-8s %-20s\n", user.getName(), user.getAge(), user.getAddress());
+            table.addRow(user.getName(), Integer.toString(user.getAge()), user.getAddress());
         }
+        System.out.println(table);
 
+//        System.out.printf("%-28s %-8s %-20s\n", "Nama", "Umur", "Alamat");
+//        for (User user : dataUser) {
+//            System.out.printf("%-28s %-8s %-20s\n", user.getName(), user.getAge(), user.getAddress());
     }
 }
